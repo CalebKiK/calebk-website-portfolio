@@ -1,0 +1,13 @@
+.projects{
+    background: linear-gradient(to bottom, #121B22, #1D4D49, #173435, #15282C, #121B22);
+    color: white;
+    padding: 40px 400px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.languages{
+    display: flex;
+    flex-direction: row;
+}

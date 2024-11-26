@@ -1,0 +1,22 @@
+.footer{
+    background-color: #121B22;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 40px 200px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.footer-logo{
+    margin-right: 200px;
+}
+
+.footer-links-list li{
+    list-style: none;
+}
+
+.footer-links{
+    margin-right: 200px;
+}

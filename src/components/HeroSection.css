@@ -1,0 +1,30 @@
+.hero-section-component{
+    background: linear-gradient(to bottom, #121B22, #052B28, #121B22);
+    color: white;
+    padding-bottom: 30px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-links-list{
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+}
+
+.navbar-links-list li{
+    list-style: none;
+    margin-right: 100px;
+}
+
+.hero-section{
+    margin: 10px 400px;
+    text-align: left;
+}
