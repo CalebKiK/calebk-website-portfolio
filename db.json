@@ -67,7 +67,7 @@
         },
         {
             "id": 6,
-            "project_title": "",
+            "project_title": "BattleBot",
             "project_description": "",
             "project_image": "",
             "project_link": "",
@@ -75,8 +75,7 @@
                 "language_1": "",
                 "language_2": "",
                 "language_3": "",
-                "language_4": "",
-                "language_5": ""
+                "language_4": "JSON server(db.json)"
             }
         },
         {
@@ -89,8 +88,7 @@
                 "language_1": "",
                 "language_2": "",
                 "language_3": "",
-                "language_4": "",
-                "language_5": ""
+                "language_4": ""
             }
         },
         {

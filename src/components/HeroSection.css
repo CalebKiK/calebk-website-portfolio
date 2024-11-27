@@ -2,15 +2,21 @@
     background: linear-gradient(to bottom, #121B22, #052B28, #121B22);
     color: white;
     padding-bottom: 30px;
+    height: 80%;
 }
 
 .navbar{
     display: flex;
     flex-direction: row;
-    margin: 10px 200px;
+    margin: 0px 200px 10px;
     text-align: center;
     justify-content: center;
     align-items: center;
+    padding-top: -20px;
+}
+
+.navbar h4{
+    font-size: 30px;
 }
 
 .navbar-links-list{
@@ -22,9 +28,44 @@
 .navbar-links-list li{
     list-style: none;
     margin-right: 100px;
+    cursor: pointer;
 }
 
 .hero-section{
-    margin: 10px 400px;
+    margin: 200px 400px;
     text-align: left;
+}
+
+.hero-section h5{
+    color: rgb(156, 223, 223);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.hero-section h1{
+    font-size: 40px;
+}
+
+.hero-section h2{
+    color: rgb(202, 202, 202);
+    font-family: "Open Sans", sans-serif;
+    font-size: 27px;
+}
+
+.hero-section h3{
+    color: rgb(202, 202, 202);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.hero-section h6{
+    font-size: 16px;
+    margin-top: 100px;
+}
+
+.hero-section span{
+    font-size: 18px;
+    text-decoration: underline;
+    cursor: pointer;
+    
 }

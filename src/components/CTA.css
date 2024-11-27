@@ -1,4 +1,13 @@
 .cta{
-    margin: 40px 400px;
+    margin: 100px 400px;
     text-align: left;
+}
+
+.cta-text h4{
+    color: rgb(97, 97, 97);
+}
+
+.cta-text span{
+    text-decoration: underline;
+    cursor: pointer;
 }

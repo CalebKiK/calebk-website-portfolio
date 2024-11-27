@@ -2,20 +2,19 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 import './Projects.css';
 
-function Projects({ allProjects }) {
+function AllProjects({ allProjects }) {
     return (
-        <div className="projects">
+        <div className="all-projects">
             <h2>Projects</h2>
-            <div className="projects-component">
-                <div className="project-component-card">
+            <div className="all-projects-component">
+                <div className="all-project-component-card">
                     {allProjects.map((project) => (
                         <ProjectCard key={project.id} project={project}/>
                     ))}
                 </div>
             </div>
-            <h4>To more projects -&gt;</h4>
         </div>
     )
 };
 
-export default Projects;
+export default AllProjects;
