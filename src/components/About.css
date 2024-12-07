@@ -1,6 +1,16 @@
 .about-me{
-    margin: 100px 400px;
+    margin: 50px 400px;
     text-align: left;
+}
+
+.about-me h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.about-me-content{
+    display: flex;
+    flex-direction: row;
 }
 
 .about-me span{
@@ -22,4 +32,21 @@
     border-radius: 5px;
     font-size: 15px;
     font-weight: 700;
+}
+
+@media (max-width: 450px) {
+    .tech-skills{
+        margin: -30px 30px 10px;
+    }
+}
+
+@media (max-width: 860px) {
+    .about-me{
+        margin: 50px;
+        width: 800px;
+    }
+
+    .tech-skills{
+        margin: -30px 30px 10px;
+    }
 }

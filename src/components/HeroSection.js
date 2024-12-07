@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import './HeroSection.css';
 
 function HeroSection() {
@@ -8,10 +9,15 @@ function HeroSection() {
                 <h4>CalebKarimi._</h4>
                 <div className="navbar-links">
                     <ul className="navbar-links-list">
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Projects</li>
-                        <li>Contact</li>
+                        <li>
+                            <Link to="about" smooth={true} duration={500}>About</Link>
+                        </li>
+                        <li>
+                            <Link to="projects" smooth={true} duration={500}>Projects</Link>
+                        </li>
+                        <li>
+                            <Link to="cta" smooth={true} duration={500}>Contact</Link>
+                        </li>
                     </ul>
                 </div>
             </div>

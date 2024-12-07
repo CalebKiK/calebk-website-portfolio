@@ -31,6 +31,12 @@
     cursor: pointer;
 }
 
+.navbar-links-list li:hover{
+    text-decoration: underline;
+    color: #a8fff8;
+    transition: 0.9s ease;
+}
+
 .hero-section{
     margin: 200px 400px;
     text-align: left;
@@ -68,4 +74,81 @@
     text-decoration: underline;
     cursor: pointer;
     
+}
+
+@media (max-width: 450px) {
+    .hero-section-component{
+        width: 100%;
+    }
+
+    .navbar-links-list{
+        margin-left: 100px;
+    }
+
+    .hero-section{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-section h5{
+        font-size: 20px;
+    }
+
+    .hero-section h1{
+        font-size: 35px;
+        margin-top: 60px;
+    }
+
+    .hero-section h2{
+        font-size: 25px;
+        line-height: 40px;
+        margin-top: 60px;
+    }
+
+    .hero-section h3{
+        font-size: 15px;
+        margin-top: 60px;
+        line-height: 40px;
+    }
+
+}
+
+@media (max-width: 860px) {
+    .hero-section-component{
+        width: 960px;
+    }
+
+    .navbar-links-list{
+        margin-left: 200px;
+    }
+
+    .hero-section{
+        margin: 230px 40px;
+    }
+
+    .hero-section h5{
+        font-size: 20px;
+    }
+
+    .hero-section h1{
+        font-size: 35px;
+        margin-top: 60px;
+    }
+
+    .hero-section h2{
+        font-size: 25px;
+        line-height: 40px;
+        margin-top: 60px;
+    }
+
+    .hero-section h3{
+        font-size: 15px;
+        margin-top: 60px;
+        line-height: 40px;
+    }
+
+}
+
+@media (max-width: 1030px) {
+  
 }

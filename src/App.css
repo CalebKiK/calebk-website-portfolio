@@ -20,6 +20,14 @@ body h1, body h3, body p{
   pointer-events: none;
 }
 
+@media (max-width: 860px) {
+  
+}
+
+@media (max-width: 1030px) {
+  
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

@@ -12,7 +12,7 @@ function CTA() {
                     <h4>Email: <span>karimicaleb@gmail.com</span></h4>
                 </div>
                 <div className="cta-image">
-                    <img src="" alt="Let's chat vector"/>
+                    <img src="images/communicate.png" alt="Let's chat vector"/>
                 </div>
             </div>
         </div>

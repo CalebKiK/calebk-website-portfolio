@@ -1,20 +1,20 @@
 import React from 'react';
 import './Projects.css';
 
-function ProjectCard({ project }) {
+function AllProjectsCard({ project }) {
     return (
-        <div className="project-card">
-            <div className="project-details-image">
+        <div className="all-projects-card">
+            <div className="all-project-details-image">
                 <img src={project.project_image} alt={project.project_title}/>
             </div>
-            <div className="project-details-text">
+            <div className="all-project-details-text">
                 <h3>{project.project_title}</h3>
-                <p className="project-description">{project.project_description}</p>
+                <p>{project.project_description}</p>
                 <div className="project-links">
                     <p>{project.project_link}</p>
                     <p>{project.project_github_link}</p>
                 </div>
-                <div className="project-languages-used">
+                <div className="all-project-languages-used">
                     <p>Languages and tools used:</p>
                     <div className="languages">
                         <h6>{project.project_languages.language_1}</h6>
@@ -32,4 +32,4 @@ function ProjectCard({ project }) {
     )
 };
 
-export default ProjectCard;
+export default AllProjectsCard;

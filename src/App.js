@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HeroSection from './components/HeroSection';
 import About from './components/About';
 import Projects from './components/Projects';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
 import './App.css';
+import AllProjects from './components/AllProjects';
 
 function App() {
 
@@ -20,9 +22,19 @@ function App() {
   return (
     <div className="App">
       <HeroSection />
-      <About />
-      <Projects allProjects={allProjects}/>
-      <CTA />
+      
+      <div id="about">
+        <About />
+      </div>
+      <div id="projects">
+        <Projects allProjects={allProjects}/>
+      </div>
+      <Routes>
+        <Route path="/all-projects" element={<AllProjects />} />
+      </Routes>
+      <div id="cta">
+        <CTA />
+      </div>
       <Footer />
     </div>
   );

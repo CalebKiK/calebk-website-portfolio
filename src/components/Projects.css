@@ -1,34 +1,180 @@
 .projects{
-    background: linear-gradient(to bottom, #121B22, #1D4D49, #173435, #15282C, #121B22);
-    color: white;
-    padding: 80px 400px;
+    background-color: #f5fffe;
+    color: rgb(14, 14, 14);
+    padding: 10px 370px;
     text-align: center;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
+}
+
+.projects h2, .all-projects h2{
+    font-size: 30px;
+}
+
+.project-component-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
 }
 
 .project-card{
-    display: flex;
-    flex-direction: row;
+    border: 1px rgb(212, 212, 212) solid;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 30px 20px 0px 0px;
+    width: 320px;
 }
 
 .project-details-text{
     text-align: left;
 }
 
+.project-description{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.project-languages-used .languages{
+    margin-top: -40px;
+}
+
 .languages{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 .languages h6{
-    margin-right: 30px;
-    background-color: rgb(38, 117, 117);
+    margin-right: 5px;
+    background-color: rgb(237, 242, 242);
     padding: 5px 10px;
     border-radius: 5px;
+    color: black;
+    font-size: 12px;
+}
+
+.project-details-image img{
+    width: 330px;
+    border-radius: 5px;
+    
 }
 
 .projects h4{
     cursor: pointer;
     text-align: right;
+}
+
+.projects h4:hover{
+    text-decoration: underline;
+    color: #1b5b56;
+    transition: 0.9s ease;
+}
+
+.all-projects{
+    background-color: #f5fffe;
+    color: rgb(14, 14, 14);
+    padding: 10px 350px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.all-projects-card{
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.all-project-details-image img{
+    width: 500px;
+    border-radius: 5px;
+    margin: 20px 30px;
+}
+
+.all-project-languages-used{
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.all-project-languages-used p {
+    margin: 0px 10px 0px 0px;
+}
+
+.project-links{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.project-links a{
+    text-decoration: none;
+}
+
+.live-demo-link{
+    background-color: rgb(38, 117, 117);
+    margin-right: 100px;
+    color: #f5fffe;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.github-repo-link{
+    border: 1px rgb(38, 117, 117) solid;
+    color: rgb(17, 79, 79);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@media (max-width: 450px) {
+    .projects{
+        padding: 10px 50px;
+    }
+
+    .all-projects{
+        padding: 10px 50px;
+        width: 400px;
+    }
+
+    .all-projects-card{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .all-project-details-image img{
+        width: 300px;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 860px) {
+    .projects{
+        padding: 10px 50px;
+        width: 860px;
+    }
+
+    .all-projects{
+        padding: 10px 50px;
+        width: 400px;
+    }
+
+    .all-projects-card{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .all-project-details-image img{
+        width: 300px;
+        margin: 20px;
+    }
 }

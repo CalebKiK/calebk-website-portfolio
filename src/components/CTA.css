@@ -1,5 +1,14 @@
 .cta{
-    margin: 100px 400px;
+    margin: 100px 500px;
+}
+
+.cta h2{
+    font-size: 30px;
+}
+
+.cta-content{
+    display: flex;
+    flex-direction: row;
     text-align: left;
 }
 
@@ -11,3 +20,32 @@
     text-decoration: underline;
     cursor: pointer;
 }
+
+.cta-image{
+    margin-left: 50px;
+}
+
+.cta-image img{
+    width: 150px;
+}
+
+@media (max-width: 450px) {
+    .cta{
+        margin: 100px 50px;
+    }
+
+    .cta-text p{
+        width: 600px;
+    }
+}
+
+@media (max-width: 860px) {
+    .cta{
+        margin: 100px 50px;
+    }
+
+    .cta-text p{
+        width: 600px;
+    }
+}
+

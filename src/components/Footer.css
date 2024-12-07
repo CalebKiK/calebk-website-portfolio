@@ -3,10 +3,9 @@
     color: white;
     display: flex;
     flex-direction: row;
-    padding: 40px 200px;
+    padding: 40px 50px;
     text-align: center;
     justify-content: center;
-    
 }
 
 .footer-logo{
@@ -15,8 +14,76 @@
 
 .footer-links-list li{
     list-style: none;
+    cursor: pointer;
+    margin-left: -30px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.footer-links-list li:hover{
+    text-decoration: underline;
+    color: #a8fff8;
+    transition: 0.8s ease;
 }
 
 .footer-links{
     margin-right: 200px;
 }
+
+.socials{
+    display: flex;
+    flex-direction: row;
+}
+
+.socials img{
+    background-color: white;
+    height: 50px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.linkedin-link{
+    border-radius: 20px;
+}
+
+.github-link, .email-link{
+    border-radius: 40px;
+}
+
+.socials img:hover{
+    background-color: rgb(120, 198, 226);
+    transition: 0.6s ease-in;
+}
+
+@media (max-width: 450px) {
+    .footer{
+        padding: 40px;
+        justify-content: left;
+        width: 900px;
+    }
+
+    .footer-logo{
+        margin-right: 150px;
+    }
+
+    .footer-links{
+        margin-right: 150px;
+    }
+}
+
+@media (max-width: 860px) {
+    .footer{
+        padding: 40px;
+        justify-content: left;
+        width: 900px;
+    }
+
+    .footer-logo{
+        margin-right: 150px;
+    }
+
+    .footer-links{
+        margin-right: 150px;
+    }
+}
+
