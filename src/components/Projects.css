@@ -95,7 +95,7 @@
 }
 
 .all-project-details-image img{
-    width: 500px;
+    max-width: 500px;
     border-radius: 5px;
     margin: 20px 30px;
 }
@@ -119,6 +119,7 @@
 
 .project-links a{
     text-decoration: none;
+    font-size: 13px;
 }
 
 .live-demo-link{
@@ -138,26 +139,47 @@
 
 @media (max-width: 450px) {
     .projects{
-        padding: 10px 50px;
+        padding: 10px 40px;
     }
 
     .all-projects{
-        padding: 10px 50px;
-        width: 400px;
+        padding: 10px 40px;
     }
 
     .all-projects-card{
         display: flex;
         flex-direction: column;
+        margin: 0px 0px 20px -10px;
     }
     
     .all-project-details-image img{
-        width: 300px;
+        width: 250px;
         margin: 20px;
     }
+
+    .all-project-languages-used{
+        display: block;
+    }
+
+    .project-description, .project-languages-used p, .all-project-details-text, .all-project-languages-used p{
+        font-size: 13px;
+    }
+
+    .project-links a{
+        font-size: 15px;
+    }
+
+    .projects h4{
+        margin-top: 50px;
+    }
+
+    .live-demo-link{
+        margin-right: 50px;
+    }
+
 }
 
-@media (max-width: 860px) {
+@media (min-width: 450px) and (max-width: 600px) {
     .projects{
         padding: 10px 50px;
         width: 860px;
@@ -165,16 +187,150 @@
 
     .all-projects{
         padding: 10px 50px;
-        width: 400px;
     }
 
     .all-projects-card{
         display: flex;
         flex-direction: column;
     }
+
+    .all-project-details-image{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
     
     .all-project-details-image img{
-        width: 300px;
+        max-width: 450px;
+        margin: 20px 0px;
+    }
+
+    .all-project-languages-used{
+        margin-top: 0px;
+        display: block;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 860px) {
+    .projects{
+        padding: 10px 50px;
+        width: 860px;
+    }
+
+    .all-projects{
+        padding: 10px 50px;
+    }
+
+    .all-projects-card{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .all-project-details-image{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .all-project-details-image img{
+        max-width: 450px;
+        margin: 20px 0px;
+    }
+
+    .all-project-languages-used{
+        margin-top: 0px;
+        display: block;
+    }
+}
+
+@media (min-width: 860px) and (max-width: 1090px) {
+    .projects, .all-projects{
+        padding: 10px 100px;
+    }
+
+   .all-projects-component-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+   }
+
+    .all-projects-card{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 30px 20px 0px;
+    }
+
+    .all-project-details-image{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .all-project-details-image img{
+        width: 250px;
         margin: 20px;
+    }
+
+    .all-project-languages-used{
+        display: block;
+    }
+
+    .project-description, .project-languages-used p, .all-project-details-text, .all-project-languages-used p{
+        font-size: 13px;
+    }
+
+    .project-links a{
+        font-size: 16px;
+    }
+
+    .projects h4{
+        margin-top: 50px;
+    }
+
+    .live-demo-link{
+        margin-right: 50px;
+    }
+}
+
+@media (min-width: 1090px) and (max-width: 1740px) {
+    .projects, .all-projects{
+        padding: 10px 200px;
+    }
+
+   .all-projects-component-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+   }
+
+    .all-projects-card{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 30px 20px 0px;
+    }
+
+    .all-project-details-image{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .all-project-details-image img{
+        width: 400px;
+        margin: 20px;
+    }
+
+    .project-description, .project-languages-used p, .all-project-details-text, .all-project-languages-used p{
+        font-size: 14px;
+    }
+
+    .project-links a{
+        font-size: 14px;
+    }
+
+    .projects h4{
+        margin-top: 50px;
+    }
+
+    .live-demo-link{
+        margin-right: 50px;
     }
 }

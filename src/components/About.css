@@ -13,6 +13,10 @@
     flex-direction: row;
 }
 
+.about-me-text p{
+    font-size: 15px;
+}
+
 .about-me span{
     font-weight: 700;
 }
@@ -26,21 +30,52 @@
 
 .skill-card p{
     background-color: #052B28;
-    padding: 10px 10px;
+    padding: 5px;
     margin-right: 30px;
     color: white;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 700;
 }
 
 @media (max-width: 450px) {
+    .about-me{
+        margin: 50px 40px;
+    }
+    
+    .about-me h2{
+        font-size: 20px;
+    }
+
+    .about-me-content{
+        display: block;
+    }
+
+    .about-me-text p{
+        font-size: 12px;
+        line-height: 25px;
+    }
+    
+    .about-me span{
+        font-weight: 700;
+    }
+
     .tech-skills{
-        margin: -30px 30px 10px;
+        margin: -30px 0px 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+
+    .skill-card p{
+        padding: 5px;
+        margin-right: 20px;
+        font-size: 11px;
+        font-weight: 600;
     }
 }
 
-@media (max-width: 860px) {
+@media (min-width: 450px) and (max-width: 860px) {
     .about-me{
         margin: 50px;
         width: 800px;
@@ -48,5 +83,29 @@
 
     .tech-skills{
         margin: -30px 30px 10px;
+    }
+}
+
+@media (min-width: 860px) and (max-width: 1030px) {
+    .about-me{
+        margin: 60px 130px;
+    }
+
+    .tech-skills{
+        margin: -30px 0px 10px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media (min-width: 1090px) and (max-width: 1740px) {
+    .about-me{
+        margin: 80px 250px;
+    }
+
+    .tech-skills{
+        margin: -30px 30px 10px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
     }
 }

@@ -28,7 +28,7 @@ function Projects({ allProjects }) {
                     )} 
                 </div>
             </div>
-            <h4 onClick={handleAllProjects}>To more projects -&gt;</h4>
+            <h4 onClick={handleAllProjects}>View all projects -&gt;</h4>
         </div>
     )
 };

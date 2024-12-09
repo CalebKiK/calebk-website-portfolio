@@ -31,7 +31,26 @@
 
 @media (max-width: 450px) {
     .cta{
-        margin: 100px 50px;
+        margin: 60px 40px;
+    }
+
+    .cta-content{
+        display: block;
+    }
+
+    .cta-text{
+        font-size: 13px;
+    }
+
+}
+
+@media (min-width: 450px) and (max-width: 860px) {
+    .cta{
+        margin: 100px;
+    }
+
+    .cta-image{
+        margin-left: 0px;
     }
 
     .cta-text p{
@@ -39,9 +58,28 @@
     }
 }
 
-@media (max-width: 860px) {
+@media (min-width: 860px) and (max-width: 1030px) {
     .cta{
-        margin: 100px 50px;
+        margin: 60px 150px;
+    }
+
+    .cta-image{
+        margin-left: 0px;
+    }
+
+    .cta-text p{
+        width: 600px;
+    }
+
+}
+
+@media (min-width: 1090px) and (max-width: 1740px) {
+    .cta{
+        margin: 60px 230px;
+    }
+
+    .cta-image{
+        margin-left: 0px;
     }
 
     .cta-text p{

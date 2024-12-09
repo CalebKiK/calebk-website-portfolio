@@ -10,17 +10,13 @@ function ProjectCard({ project }) {
             <div className="project-details-text">
                 <h3>{project.project_title}</h3>
                 <p className="project-description">{project.project_description}</p>
-                <div className="project-links">
-                    <p>{project.project_link}</p>
-                    <p>{project.project_github_link}</p>
-                </div>
                 <div className="project-languages-used">
                     <p>Languages and tools used:</p>
                     <div className="languages">
-                        <h6>{project.project_languages.language_1}</h6>
-                        <h6>{project.project_languages.language_2}</h6>
-                        <h6>{project.project_languages.language_3}</h6>
-                        <h6>{project.project_languages.language_4}</h6>
+                        {project.project_languages.language_1 && <h6>{project.project_languages.language_1}</h6>}
+                        {project.project_languages.language_2 && <h6>{project.project_languages.language_2}</h6>}
+                        {project.project_languages.language_3 && <h6>{project.project_languages.language_3}</h6>}
+                        {project.project_languages.language_4 && <h6>{project.project_languages.language_4}</h6>}
                     </div>
                 </div>
                 <div className='project-links'>

@@ -77,45 +77,70 @@
 }
 
 @media (max-width: 450px) {
+    .navbar{
+        margin: 0px;
+    }
+
     .hero-section-component{
         width: 100%;
     }
 
+    .navbar h4{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
     .navbar-links-list{
-        margin-left: 100px;
+        margin-left: 5px;
+    }
+
+    .navbar-links-list li{
+        margin-right: 30px;
+        font-size: 12px;
     }
 
     .hero-section{
+        margin: 60px 40px;
         justify-content: center;
         align-items: center;
     }
 
     .hero-section h5{
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .hero-section h1{
-        font-size: 35px;
-        margin-top: 60px;
+        font-size: 25px;
+        margin-top: 30px;
     }
 
     .hero-section h2{
-        font-size: 25px;
-        line-height: 40px;
-        margin-top: 60px;
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 40px;
     }
 
     .hero-section h3{
-        font-size: 15px;
-        margin-top: 60px;
-        line-height: 40px;
+        font-size: 12px;
+        margin-top: 40px;
+        line-height: 30px;
+    }
+
+    .hero-section h6, .hero-section span{
+        font-size: 13px;
+        margin-top: 40px;
     }
 
 }
 
-@media (max-width: 860px) {
+@media (min-width: 450px) and (max-width: 860px) {
+
+    .navbar h4{
+        font-size: 20px;
+    }
+
     .hero-section-component{
-        width: 960px;
+        width: 1000px;
     }
 
     .navbar-links-list{
@@ -123,7 +148,7 @@
     }
 
     .hero-section{
-        margin: 230px 40px;
+        margin: 100px;
     }
 
     .hero-section h5{
@@ -132,23 +157,90 @@
 
     .hero-section h1{
         font-size: 35px;
-        margin-top: 60px;
+        margin-top: 40px;
     }
 
     .hero-section h2{
         font-size: 25px;
         line-height: 40px;
-        margin-top: 60px;
+        margin-top: 40px;
     }
 
     .hero-section h3{
         font-size: 15px;
+        margin-top: 40px;
+        line-height: 40px;
+    }
+}
+
+@media (min-width: 860px) and (max-width: 1030px) {
+
+    .navbar h4{
+        font-size: 30px;
+    }
+
+    .navbar-links-list{
+        margin-left: 200px;
+    }
+
+    .hero-section{
+        margin: 100px;
+    }
+
+    .hero-section h5{
+        font-size: 25px;
+    }
+
+    .hero-section h1{
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+    .hero-section h2{
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 50px;
+    }
+
+    .hero-section h3{
+        font-size: 18px;
+        margin-top: 50px;
+        line-height: 40px;
+    }
+}
+
+@media (min-width: 1090px) and (max-width: 1740px) {
+    .navbar h4{
+        font-size: 30px;
+    }
+
+    .navbar-links-list{
+        margin-left: 200px;
+    }
+
+    .hero-section{
+        margin: 100px 230px;
+    }
+
+    .hero-section h5{
+        font-size: 25px;
+    }
+
+    .hero-section h1{
+        font-size: 40px;
+        margin-top: 60px;
+        line-height: 50px;
+    }
+
+    .hero-section h2{
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 60px;
+    }
+
+    .hero-section h3{
+        font-size: 18px;
         margin-top: 60px;
         line-height: 40px;
     }
-
-}
-
-@media (max-width: 1030px) {
-  
 }
