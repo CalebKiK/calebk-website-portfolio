@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HeroSection from './components/HeroSection';
 import About from './components/About';
 import Projects from './components/Projects';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
 import './App.css';
-import AllProjects from './components/AllProjects';
 
 function App() {
 
@@ -138,9 +136,6 @@ function App() {
       <div id="projects">
         <Projects allProjects={projects}/>
       </div>
-      <Routes>
-        <Route path="/all-projects" element={<AllProjects />} />
-      </Routes>
       <div id="cta">
         <CTA />
       </div>
