@@ -19,7 +19,7 @@ function App() {
         "project_title": "Electrohub",
         "project_description": "This is a full-stack e-commerce website specifically to sell electronics to customers. The platform allows customers to browse a wide range of electronics products, add them to their shopping cart, and make secure purchases. The website has an admin panel that empowers administrators to manage the products by adding, updating and deleting product listings and their details.",
         "project_image": "images/electrohub-landing-page.JPG",
-        "project_link": "",
+        "project_link": "https://electrohubshop.netlify.app/",
         "project_github_link": "https://github.com/CalebKiK/electrohub-frontend",
         "project_languages": {
             "language_1": "ReactJS",
@@ -61,7 +61,7 @@ function App() {
         "project_title": "MuseMatch",
         "project_description": "This is a frontend networking website designed to foster collaboration between architects, interior designers and potential customers. The platform offers a space for creative professionals within th design community to network, collaborate and grow their businesses while allowing customers to find the right professionals for their projects.",
         "project_image": "images/musematch-landing-page.JPG",
-        "project_link": "",
+        "project_link": "https://musematch.netlify.app/",
         "project_github_link": "https://github.com/CalebKiK/musematch-networking-project",
         "project_languages": {
             "language_1": "HTML",
@@ -75,7 +75,7 @@ function App() {
         "project_title": "Quizzical",
         "project_description": "This is an interactive frontend website that provides users with a vast collection of general knowledge questions on a variety of topics such as history, science, geography, literature and current events. This helps make learning more accessible and engaging.",
         "project_image": "images/quizzical-landing-page.JPG",
-        "project_link": "",
+        "project_link": "https://quizzicalknowledge.netlify.app/",
         "project_github_link": "https://github.com/CalebKiK/Quizzical-general-knowledge-website",
         "project_languages": {
             "language_1": "HTML",
