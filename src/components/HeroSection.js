@@ -26,7 +26,9 @@ function HeroSection() {
                 <h1>Caleb Karimi     |       Software Developer</h1>
                 <h2>I craft robust, scalable and user-friendly for the web that drive innovation and enhance user experiences.</h2>
                 <h3>As a passionate web/software developer, I combine a strong foundation in design principles with a deep commitment to delivering functional and intuitive solutions. Every line of code I write is crafted with the same care and attention to detail that goes into designing an architectural masterpiece.</h3>
-                <h6>Get in touch: <span>karimicaleb@gmail.com</span></h6>
+                <h6>Get in touch: 
+                    <a href="mailto:karimicaleb@gmail.com"><span>karimicaleb@gmail.com</span></a>  
+                </h6>
             </div>
         </div>
     )

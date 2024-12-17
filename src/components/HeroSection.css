@@ -69,10 +69,12 @@
     margin-top: 100px;
 }
 
-.hero-section span{
-    font-size: 18px;
+.hero-section a{
+    font-size: 17px;
     text-decoration: underline;
     cursor: pointer;
+    color: white;
+    margin-left: 10px;
     
 }
 

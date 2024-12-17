@@ -45,7 +45,7 @@ function App() {
         "project_title": "PlanIt Task Manager",
         "project_description": "This is a user-friendly frontend website designed to help individuals efficiently manage their daily tasks, projects, and responsibilities. With a clean and simple interface, users can easily create, organize, and track their tasks, set deadlines, and prioritize their work. The website aims to improve productivity and organization, offering features that allow users to plan their day and visualize progress.",
         "project_image": "images/planit-landing-page.JPG",
-        "project_link": "",
+        "project_link": "https://planittaskmanager.netlify.app/",
         "project_github_link": "https://github.com/CalebKiK/group-3-planit-task-manager",
         "project_languages": {
             "language_1": "HTML",
@@ -129,7 +129,6 @@ function App() {
   return (
     <div className="App">
       <HeroSection />
-      
       <div id="about">
         <About />
       </div>
