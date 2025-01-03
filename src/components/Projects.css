@@ -59,8 +59,7 @@
 
 .project-details-image img{
     width: 330px;
-    border-radius: 5px;
-    
+    border-radius: 5px;  
 }
 
 .projects h4{
@@ -154,11 +153,22 @@
     
     .all-project-details-image img{
         width: 250px;
-        margin: 20px;
+        margin: 10px 10px 0px 5px;
     }
 
     .all-project-languages-used{
         display: block;
+        margin-top: 10px;
+    }
+
+    .project-card{
+        padding: 10px;
+        margin: 10px 10px 10px -20px;
+        width: 320px;
+    }
+
+    .project-details-image img{
+        width: 300px;
     }
 
     .project-description, .project-languages-used p, .all-project-details-text, .all-project-languages-used p{
@@ -166,17 +176,26 @@
     }
 
     .project-links a{
-        font-size: 15px;
+        font-size: 12px;
+    }
+
+    .projects p, .all-projects p{
+        font-size: 12px;
     }
 
     .projects h4{
         margin-top: 50px;
+        font-size: 15px;
+    }
+
+    .languages h6{
+        padding: 5px 8px;
+        font-size: 11px;
     }
 
     .live-demo-link{
         margin-right: 50px;
     }
-
 }
 
 @media (min-width: 450px) and (max-width: 600px) {

@@ -20,43 +20,33 @@ function About() {
                     <p>The skills, tools and technologies I use to bring products to life:</p>
                     <div className="tech-skills">
                         <div className="skill-card">
-                            <img src="" alt=""/>
                             <p>HTML</p>
                         </div>
                         <div className="skill-card">
-                            <img src="" alt=""/>
                             <p>CSS</p>
                         </div>
                         <div className="skill-card">
-                            <img src="" alt=""/>
                             <p>JavaScript</p>
                         </div>
                         <div className="skill-card">
-                            <img src="" alt=""/>
                             <p>React</p>
                         </div>
                         <div className="skill-card">
-                            <img src="" alt=""/>
                             <p>Github</p>
                         </div>
                         <div className="skill-card">
-                            <img src="" alt=""/>
                             <p>Python</p>
                         </div>
                         <div className="skill-card">
-                            <img src="" alt=""/>
                             <p>Flask</p>
                         </div>
                         <div className="skill-card">
-                            <img src="" alt=""/>
                             <p>RESTful APIs</p>
                         </div>
                         <div className="skill-card">
-                            <img src="" alt=""/>
                             <p>Command Line</p>
                         </div>
                         <div className="skill-card">
-                            <img src="" alt=""/>
                             <p>VS Code</p>
                         </div>
                     </div>

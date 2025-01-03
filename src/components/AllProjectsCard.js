@@ -11,7 +11,7 @@ function AllProjectsCard({ project }) {
                 <h3>{project.project_title}</h3>
                 <p>{project.project_description}</p>
                 <div className="all-project-languages-used">
-                    <p>Languages and tools used:</p>
+                    <p>Technologies and tools used:</p>
                     <div className="languages">
                         {project.project_languages.language_1 && <h6>{project.project_languages.language_1}</h6>}
                         {project.project_languages.language_2 && <h6>{project.project_languages.language_2}</h6>}

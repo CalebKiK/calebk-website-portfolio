@@ -98,8 +98,8 @@ function App() {
         "id": 7,
         "project_title": "Gym Management CLI App",
         "project_description": "The Fitness Classes Scheduling System helps gyms efficiently manage class schedules, trainers, and member participation. It enables seamless updates to class details, member enrollments, and trainer assignments while ensuring class capacity limits are maintained. The system streamlines communication and management, improving the overall gym experience for both members and administrators.",
-        "project_image": "",
-        "project_link": "",
+        "project_image": "images/gym management cli image.png",
+        "project_link": "https://drive.google.com/file/d/1DwVjf8OGrd7rjsjy4f6Vf6IPM-DhCfpX/view?usp=sharing",
         "project_github_link": "https://github.com/CalebKiK/gym-management-cli",
         "project_languages": {
             "language_1": "Python",
