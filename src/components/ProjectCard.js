@@ -20,8 +20,15 @@ function ProjectCard({ project }) {
                     </div>
                 </div>
                 <div className='project-links'>
-                    <a href={project.project_link} target="_blank" rel="noopener noreferrer" className='live-demo-link'>Live Demo</a>
-                    <a href={project.project_github_frontend_link} target="_blank" rel="noopener noreferrer" className='github-repo-link'>Github repo</a>
+                    {project.project_link && (
+                        <a href={project.project_link} target="_blank" rel="noopener noreferrer" className='live-demo-link'>Live Demo</a>
+                    )}
+                    {project.project_github_frontend_link && (
+                        <a href={project.project_github_frontend_link} target="_blank" rel="noopener noreferrer" className='github-frontend'>Github Frontend</a>
+                    )}
+                    {project.project_github_backend_link && (
+                        <a href={project.project_github_backend_link} target="_blank" rel="noopener noreferrer" className='github-backend'>Github Backend</a>
+                    )}
                 </div>
             </div>
         </div>

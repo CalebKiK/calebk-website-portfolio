@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import AllProjectsCard from './AllProjectsCard';
+import ProjectCard from './ProjectCard';
 import './Projects.css';
 
 function AllProjects() {
@@ -129,14 +129,14 @@ function AllProjects() {
     }
 
     return (
-        <div className="all-projects">
+        <div className="projects">
             <h2>Projects</h2>
             <p>A full collection of projects I've worked on.</p>
-            <div className="all-projects-component">
-                <div className="all-projects-component-card">
+            <div className="projects-component">
+                <div className="project-component-card">
                     {allProjects.length > 0 ? (
                         allProjects.map((project) => (
-                            <AllProjectsCard key={project.id} project={project} />
+                            <ProjectCard key={project.id} project={project} />
                         ))
                     ) : (
                         <p>No projects available.</p>

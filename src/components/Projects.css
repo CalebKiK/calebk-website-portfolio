@@ -1,5 +1,5 @@
 .projects{
-    background-color: #f5fffe;
+    background-color: #effffd;
     color: rgb(14, 14, 14);
     padding: 10px 370px;
     text-align: center;
@@ -29,6 +29,10 @@
 
 .project-details-text{
     text-align: left;
+}
+
+.project-details-text p, .project-languages-used p{
+    font-size: 13px;
 }
 
 .project-description{
@@ -74,9 +78,9 @@
 }
 
 .all-projects{
-    background-color: #f5fffe;
+    background-color: #effffd;
     color: rgb(14, 14, 14);
-    padding: 10px 350px;
+    padding: 10px 200px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -118,22 +122,26 @@
 
 .project-links a{
     text-decoration: none;
-    font-size: 13px;
 }
 
 .live-demo-link{
     background-color: rgb(38, 117, 117);
-    margin-right: 100px;
+    margin-right: 10px;
     color: #f5fffe;
     padding: 10px;
     border-radius: 10px;
 }
 
-.github-repo-link{
+.github-frontend, .github-backend{
     border: 1px rgb(38, 117, 117) solid;
     color: rgb(17, 79, 79);
     padding: 10px;
     border-radius: 10px;
+}
+
+.github-backend{
+    border: 1px rgb(0, 37, 37) solid;
+    color: rgb(0, 37, 37);
 }
 
 @media (max-width: 450px) {
@@ -194,7 +202,11 @@
     }
 
     .live-demo-link{
-        margin-right: 50px;
+        margin-right: 10px;
+    }
+
+    .github-frontend{
+        margin-right: 10px;
     }
 }
 
@@ -306,7 +318,11 @@
     }
 
     .live-demo-link{
-        margin-right: 50px;
+        margin-right: 10px;
+    }
+
+    .github-frontend{
+        margin-right: 10px;
     }
 }
 
@@ -342,7 +358,7 @@
     }
 
     .project-links a{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .projects h4{
@@ -350,6 +366,10 @@
     }
 
     .live-demo-link{
-        margin-right: 50px;
+        margin-right: 10px;
+    }
+
+    .github-frontend{
+        margin-right: 10px;
     }
 }

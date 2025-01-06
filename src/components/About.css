@@ -27,6 +27,10 @@
     font-size: 15px;
 }
 
+.about-me-part-2 p{
+    padding-bottom: 20px;
+}
+
 .about-me span{
     font-weight: 700;
 }
