@@ -131,7 +131,7 @@ function AllProjects() {
     return (
         <div className="projects">
             <h2>Projects</h2>
-            <p>Full collection of projects I've worked on.</p>
+            <p>A full collection of projects I've worked on.</p>
             <div className="projects-component">
                 <div className="project-component-card">
                     {allProjects.length > 0 ? (
