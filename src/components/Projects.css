@@ -1,5 +1,5 @@
 .projects{
-    background-color: #effffd;
+    background: linear-gradient(to bottom, #121B22, #052B28, #121B22);
     color: rgb(14, 14, 14);
     padding: 10px 370px;
     text-align: center;
@@ -78,7 +78,7 @@
 }
 
 .all-projects{
-    background-color: #effffd;
+    background: linear-gradient(to bottom, #121B22, #052B28, #121B22);
     color: rgb(14, 14, 14);
     padding: 10px 200px;
     text-align: center;
