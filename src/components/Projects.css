@@ -29,6 +29,7 @@
 
 .project-details-text{
     text-align: left;
+    color: black;
 }
 
 .project-details-text p, .project-languages-used p{
@@ -90,6 +91,7 @@
 .all-projects-card{
     background-color: white;
     display: flex;
+    color: black;
     border-radius: 10px;
     margin-bottom: 20px;
     text-align: left;
