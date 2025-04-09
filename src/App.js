@@ -32,7 +32,7 @@ function App() {
         "project_title": "Shopsphere",
         "project_description": "This is an all-in-one full-stack e-commerce website designed to provide a seamless shopping experience for both customers and business owners. This platform allows users to browse and purchase products from various categories and manage their cart.",
         "project_image": "images/shopsphere-landing-page.JPG",
-        "project_link": "shopsphereshop.netlify.app",
+        "project_link": "https://shopsphereshop.netlify.app/",
         "project_github_frontend_link": "https://github.com/CalebKiK/shopsphere-frontend",
         "project_github_backend_link": "https://github.com/CalebKiK/shopsphere-backend",
         "project_languages": {
