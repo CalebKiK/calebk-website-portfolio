@@ -32,16 +32,28 @@ function About() {
                             <p>React</p>
                         </div>
                         <div className="skill-card">
+                            <p>Next.js</p>
+                        </div>
+                        <div className="skill-card">
                             <p>Github</p>
                         </div>
                         <div className="skill-card">
                             <p>Python</p>
                         </div>
                         <div className="skill-card">
+                            <p>Django</p>
+                        </div>
+                        <div className="skill-card">
                             <p>Flask</p>
                         </div>
                         <div className="skill-card">
                             <p>RESTful APIs</p>
+                        </div>
+                        <div className="skill-card">
+                            <p>MySQL</p>
+                        </div>
+                        <div className="skill-card">
+                            <p>PostgreSQL</p>
                         </div>
                         <div className="skill-card">
                             <p>Command Line</p>
