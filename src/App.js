@@ -42,22 +42,9 @@ function App() {
             "language_4": "RESTful APIs"
         }
       },
+      
       {
         "id": 3,
-        "project_title": "PlanIt Task Manager",
-        "project_description": "This is a user-friendly frontend website designed to help individuals efficiently manage their daily tasks, projects, and responsibilities. With a clean and simple interface, users can easily create, organize, and track their tasks, set deadlines, and prioritize their work. The website aims to improve productivity and organization, offering features that allow users to plan their day and visualize progress.",
-        "project_image": "images/planit-landing-page.JPG",
-        "project_link": "https://planittaskmanager.netlify.app/",
-        "project_github_frontend_link": "https://github.com/CalebKiK/group-3-planit-task-manager",
-        "project_languages": {
-            "language_1": "HTML",
-            "language_2": "CSS",
-            "language_3": "JavaScript",
-            "language_4": "JSON server(db.json)"
-        }
-      },
-      {
-        "id": 4,
         "project_title": "MuseMatch",
         "project_description": "This is a frontend networking website designed to foster collaboration between architects, interior designers and potential customers. The platform offers a space for creative professionals within th design community to network, collaborate and grow their businesses while allowing customers to find the right professionals for their projects.",
         "project_image": "images/musematch-landing-page.JPG",
@@ -71,7 +58,7 @@ function App() {
         }
       },
       {
-        "id": 5,
+        "id": 4,
         "project_title": "Quizzical",
         "project_description": "This is an interactive frontend website that provides users with a vast collection of general knowledge questions on a variety of topics such as history, science, geography, literature and current events. This helps make learning more accessible and engaging.",
         "project_image": "images/quizzical-landing-page.JPG",
@@ -85,7 +72,7 @@ function App() {
         }
       },
       {
-        "id": 6,
+        "id": 5,
         "project_title": "BotBattlr",
         "project_description": "This is a React web application where users can browse a list of robots, view their details and build their own bot army. Users can enlist bots to their army, remove them or discharge them permanantly.",
         "project_image": "images/botbattlr-landing-page.JPG",
@@ -97,7 +84,7 @@ function App() {
         }
       },
       {
-        "id": 7,
+        "id": 6,
         "project_title": "Gym Management CLI App",
         "project_description": "The Fitness Classes Scheduling System helps gyms efficiently manage class schedules, trainers, and member participation. It enables seamless updates to class details, member enrollments, and trainer assignments while ensuring class capacity limits are maintained. The system streamlines communication and management, improving the overall gym experience for both members and administrators.",
         "project_image": "images/gym management cli image.png",
@@ -107,6 +94,20 @@ function App() {
             "language_1": "Python",
             "language_2": "SQLAlchemy",
             "language_3": "CLI"
+        }
+      },
+      {
+        "id": 7,
+        "project_title": "PlanIt Task Manager",
+        "project_description": "This is a user-friendly frontend website designed to help individuals efficiently manage their daily tasks, projects, and responsibilities. With a clean and simple interface, users can easily create, organize, and track their tasks, set deadlines, and prioritize their work. The website aims to improve productivity and organization, offering features that allow users to plan their day and visualize progress.",
+        "project_image": "images/planit-landing-page.JPG",
+        "project_link": "https://planittaskmanager.netlify.app/",
+        "project_github_frontend_link": "https://github.com/CalebKiK/group-3-planit-task-manager",
+        "project_languages": {
+            "language_1": "HTML",
+            "language_2": "CSS",
+            "language_3": "JavaScript",
+            "language_4": "JSON server(db.json)"
         }
       },
       {
