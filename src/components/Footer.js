@@ -7,7 +7,7 @@ function Footer() {
         <div className="footer">
             <div className="footer-logo">
                 <h2>Caleb Karimi</h2>
-                <h6>© 2024. Built and Desiged by Caleb Karimi</h6>
+                <h6>© 2025. Built and Desiged by Caleb Karimi</h6>
             </div>
             <div className="footer-clickables">
                 <div className="footer-links">
