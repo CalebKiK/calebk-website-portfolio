@@ -59,7 +59,7 @@
     transition: 0.6s ease-in;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
     .footer{
         padding: 40px;
         justify-content: left;
@@ -71,7 +71,7 @@
     }
 
     .footer-links{
-        margin-right: 60px;
+        margin-right: 50px;
     }
 
     .footer-links-list h3, .footer-socials h3{
@@ -88,7 +88,7 @@
 
     .socials img{
         height: 35px;
-        margin-right: 45px;
+        margin-right: 35px;
     }
 }
 
