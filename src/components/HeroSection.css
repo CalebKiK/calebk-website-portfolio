@@ -1,5 +1,6 @@
 .hero-section-component{
     background: linear-gradient(to bottom, #121B22, #052B28, #121B22);
+    /* background:  #121B22; */
     color: white;
     padding-bottom: 30px;
     height: 80%;
@@ -13,6 +14,23 @@
     justify-content: center;
     align-items: center;
     padding-top: -20px;
+}
+
+.spotlight {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none; 
+  z-index: 1; 
+  background-blend-mode: screen;
+}
+
+.hero-section,
+.navbar {
+  position: relative;
+  z-index: 2;
 }
 
 .navbar h4{
