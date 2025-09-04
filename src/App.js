@@ -129,7 +129,6 @@ function App() {
     setProjects(fetchedProjects);
   }, []);
   
-
   return (
     <div className="App">
       <HeroSection />

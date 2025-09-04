@@ -135,7 +135,9 @@ function HeroSection() {
         className="hero-section relative z-10"
         variants={containerVariants}
         initial="hidden"
-        animate="visible"
+        // animate="visible"
+        whileInView="visible"
+        viewport={{ once: false, amount: 0.1 }}
       >
         <motion.h5 variants={itemVariants}>Hi, my name is</motion.h5>
         <motion.h1 variants={itemVariants}>{animatedName}</motion.h1>

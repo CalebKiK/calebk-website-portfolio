@@ -1,7 +1,43 @@
 import React from 'react';
+import { motion } from "framer-motion";
 import './About.css'
 
 function About() {
+
+    const techSkills = [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Next.js",
+        "Github",
+        "Python",
+        "Django",
+        "Flask",
+        "RESTful APIs",
+        "MySQL",
+        "PostgreSQL",
+        "Command Line",
+        "VS Code",
+    ];
+
+    const containerVariants = {
+        hidden: { opacity: 0 },
+        visible: {
+        opacity: 1,
+        transition: { staggerChildren: 0.2 },
+        },
+    };
+
+    const itemVariants = {
+        hidden: { opacity: 0, y: 15 },
+        visible: {
+        opacity: 1,
+        y: 0,
+        transition: { duration: 0.6, ease: "easeOut" },
+        },
+    };
+
     return (
         <div className="about-me">
             <h2>About Me</h2>
@@ -18,50 +54,19 @@ function About() {
                 </div>
                 <div className="about-me-part-2">
                     <p>The skills, tools and technologies I use to bring products to life:</p>
-                    <div className="tech-skills">
-                        <div className="skill-card">
-                            <p>HTML</p>
-                        </div>
-                        <div className="skill-card">
-                            <p>CSS</p>
-                        </div>
-                        <div className="skill-card">
-                            <p>JavaScript</p>
-                        </div>
-                        <div className="skill-card">
-                            <p>React</p>
-                        </div>
-                        <div className="skill-card">
-                            <p>Next.js</p>
-                        </div>
-                        <div className="skill-card">
-                            <p>Github</p>
-                        </div>
-                        <div className="skill-card">
-                            <p>Python</p>
-                        </div>
-                        <div className="skill-card">
-                            <p>Django</p>
-                        </div>
-                        <div className="skill-card">
-                            <p>Flask</p>
-                        </div>
-                        <div className="skill-card">
-                            <p>RESTful APIs</p>
-                        </div>
-                        <div className="skill-card">
-                            <p>MySQL</p>
-                        </div>
-                        <div className="skill-card">
-                            <p>PostgreSQL</p>
-                        </div>
-                        <div className="skill-card">
-                            <p>Command Line</p>
-                        </div>
-                        <div className="skill-card">
-                            <p>VS Code</p>
-                        </div>
-                    </div>
+                    <motion.div 
+                        className="tech-skills" 
+                        variants={containerVariants}
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: false, amount: 0.2 }} 
+                    >
+                        {techSkills.map((skill, index) => (
+                            <motion.div key={index} className="skill-card" variants={itemVariants}>
+                                <p>{skill}</p>
+                            </motion.div>
+                        ))}
+                    </motion.div>
                 </div>
             </div>
         </div>
