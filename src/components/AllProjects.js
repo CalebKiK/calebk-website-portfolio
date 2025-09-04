@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ProjectCard from './ProjectCard';
+import { motion } from "framer-motion";
 import './Projects.css';
 
 function AllProjects() {
@@ -240,12 +241,26 @@ function AllProjects() {
         return <div>Loading...</div>;
     }
 
+    const containerVariants = {
+        hidden: { opacity: 0 },
+        visible: {
+        opacity: 1,
+        transition: { staggerChildren: 0.1 },
+        },
+    };
+
     return (
         <div className="projects">
             <h2>Projects</h2>
             <p>A full collection of projects I've worked on.</p>
             <div className="projects-component">
-                <div className="project-component-card">
+                <motion.div 
+                    className="project-component-card" 
+                    variants={containerVariants}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: false, amount: 0.2 }}
+                >
                     {allProjects.length > 0 ? (
                         allProjects.map((project) => (
                             <ProjectCard key={project.id} project={project} />
@@ -253,7 +268,7 @@ function AllProjects() {
                     ) : (
                         <p>No projects available.</p>
                     )}
-                </div>
+                </motion.div>
             </div>
         </div>
     );

@@ -1,9 +1,20 @@
 import React from 'react';
+import { motion } from "framer-motion";
 import './Projects.css';
 
 function ProjectCard({ project }) {
+
+    const itemVariants = {
+        hidden: { opacity: 0, y: 15 },
+        visible: {
+        opacity: 1,
+        y: 0,
+        transition: { duration: 0.6, ease: "easeOut" },
+        },
+    };
+
     return (
-        <div className="project-card">
+        <motion.div className="project-card" variants={itemVariants}>
             <div className="project-details-image">
                 <img src={project.project_image} alt={project.project_title}/>
             </div>
@@ -31,7 +42,7 @@ function ProjectCard({ project }) {
                     )}
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 };
 
