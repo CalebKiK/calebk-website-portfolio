@@ -41,8 +41,14 @@ function About() {
     return (
         <div className="about-me">
             <h2>About Me</h2>
-            <div className='about-me-content'>
-                <div className='about-me-part-1'>
+            <motion.div 
+                className='about-me-content' 
+                variants={containerVariants}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: false, amount: 0.1 }}
+            >
+                <motion.div className='about-me-part-1' variants={itemVariants}>
                     <div className="caleb-image">
                         <img src="/images/Caleb-K Picture.jpg" alt="Caleb K"/>
                     </div>
@@ -51,15 +57,15 @@ function About() {
                         <p>I hold a degree in Architecture, a discipline that taught me how to approach complex problems, think critically, and translate abstract ideas into tangible outcomes. These skills naturally extend into my work as a developer, where I apply the same principles of design, collaboration, spatial awareness, communication and problem-solving to create software solutions that are both functional and user-centric.</p>
                         <p>Development is more than just a job for me - it’s a craft. I am committed to continuously learning and evolving with the ever-changing tech landscape, and I thrive on the challenge of pushing the boundaries of what technology can do. Whether it’s building websites that drive business growth or developing applications that simplify processes, I pour my enthusiasm and energy into every project.</p>
                     </div>
-                </div>
-                <div className="about-me-part-2">
+                </motion.div>
+                <motion.div className="about-me-part-2" variants={itemVariants}>
                     <p>The skills, tools and technologies I use to bring products to life:</p>
                     <motion.div 
                         className="tech-skills" 
                         variants={containerVariants}
                         initial="hidden"
                         whileInView="visible"
-                        viewport={{ once: false, amount: 0.2 }} 
+                        viewport={{ once: false, amount: 0.1 }} 
                     >
                         {techSkills.map((skill, index) => (
                             <motion.div key={index} className="skill-card" variants={itemVariants}>
@@ -67,8 +73,8 @@ function About() {
                             </motion.div>
                         ))}
                     </motion.div>
-                </div>
-            </div>
+                </motion.div>
+            </motion.div>
         </div>
     )
 };
