@@ -259,7 +259,7 @@ function AllProjects() {
                     variants={containerVariants}
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{ once: false, amount: 0.2 }}
+                    viewport={{ once: false, amount: 0.1 }}
                 >
                     {allProjects.length > 0 ? (
                         allProjects.map((project) => (
