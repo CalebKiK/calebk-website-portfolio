@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from "framer-motion";
-import './CTA.css'
+import '../styles/CTA.css'
 
 function CTA() {
 

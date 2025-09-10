@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { animate, motion, useMotionTemplate, useMotionValue } from "framer-motion";
 import { Link } from "react-scroll";
-import "./HeroSection.css";
+import "../styles/HeroSection.css";
 
 function useAnimatedText(text, delimiter = "") {
   const [cursor, setCursor] = useState(0);

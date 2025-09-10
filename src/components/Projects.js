@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from "react-router-dom"; 
 import ProjectCard from './ProjectCard';
 import { motion } from "framer-motion";
-import './Projects.css';
+import '../styles/Projects.css';
 
 function Projects({ allProjects }) {
 

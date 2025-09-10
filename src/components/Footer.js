@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import { motion } from "framer-motion";
-import './Footer.css'
+import '../styles/Footer.css'
 
 function Footer() {
 
