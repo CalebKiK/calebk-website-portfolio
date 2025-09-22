@@ -28,6 +28,8 @@ function ProjectCard({ project }) {
                         {project.project_languages.language_2 && <h6>{project.project_languages.language_2}</h6>}
                         {project.project_languages.language_3 && <h6>{project.project_languages.language_3}</h6>}
                         {project.project_languages.language_4 && <h6>{project.project_languages.language_4}</h6>}
+                        {/* {project.project_languages.language_5 && <h6>{project.project_languages.language_5}</h6>}
+                        {project.project_languages.language_6 && <h6>{project.project_languages.language_6}</h6>} */}
                     </div>
                 </div>
                 <div className='project-links'>

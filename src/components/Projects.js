@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import ProjectCard from './ProjectCard';
 import { motion } from "framer-motion";
 import '../styles/Projects.css';
+import projectsData from '../data/projectsData.json';
 
 function Projects({ allProjects }) {
 
@@ -12,7 +13,7 @@ function Projects({ allProjects }) {
         navigate('/all-projects');
     };
 
-    const limitedProjects = allProjects.slice(0, 5);
+    const limitedProjects = projectsData.slice(0, 5);
 
     const containerVariants = {
         hidden: { opacity: 0 },
