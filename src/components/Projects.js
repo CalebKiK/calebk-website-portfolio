@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import '../styles/Projects.css';
 import projectsData from '../data/projectsData.json';
 
-function Projects({ allProjects }) {
+function Projects() {
 
     const navigate = useNavigate();
 

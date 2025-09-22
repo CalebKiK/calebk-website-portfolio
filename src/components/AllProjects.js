@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import ProjectCard from './ProjectCard';
 import { motion } from "framer-motion";
 import '../styles/Projects.css';

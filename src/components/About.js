@@ -18,7 +18,9 @@ function About() {
         "MySQL",
         "PostgreSQL",
         "Command Line",
-        "VS Code",
+        // "VS Code",
+        "Docker",
+        "Redis",
     ];
 
     const containerVariants = {
