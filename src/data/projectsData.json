@@ -76,18 +76,6 @@
     },
     {
         "id": 6,
-        "project_title": "BotBattlr",
-        "project_description": "This is a React web application where users can browse a list of robots, view their details and build their own bot army. Users can enlist bots to their army, remove them or discharge them permanantly.",
-        "project_image": "images/botbattlr-landing-page.JPG",
-        "project_link": "",
-        "project_github_frontend_link": "https://github.com/CalebKiK/phase2-wk2-code-challenge",
-        "project_languages": {
-            "language_1": "React",
-            "language_2": "JSON server(db.json)"
-        }
-    },
-    {
-        "id": 7,
         "project_title": "Gym Management CLI App",
         "project_description": "The Fitness Classes Scheduling System helps gyms efficiently manage class schedules, trainers, and member participation. It enables seamless updates to class details, member enrollments, and trainer assignments while ensuring class capacity limits are maintained. The system streamlines communication and management, improving the overall gym experience for both members and administrators.",
         "project_image": "images/gym management cli image.png",
@@ -99,6 +87,19 @@
             "language_3": "CLI"
         }
     },
+    {
+        "id": 7,
+        "project_title": "BotBattlr",
+        "project_description": "This is a React web application where users can browse a list of robots, view their details and build their own bot army. Users can enlist bots to their army, remove them or discharge them permanantly.",
+        "project_image": "images/botbattlr-landing-page.JPG",
+        "project_link": "",
+        "project_github_frontend_link": "https://github.com/CalebKiK/phase2-wk2-code-challenge",
+        "project_languages": {
+            "language_1": "React",
+            "language_2": "JSON server(db.json)"
+        }
+    },
+    
     {
         "id": 8,
         "project_title": "PlanIt Task Manager",

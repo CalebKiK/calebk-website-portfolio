@@ -5,11 +5,13 @@ import '../styles/About.css'
 function About() {
 
     const techSkills = [
-        "HTML",
-        "CSS",
+        // "HTML",
+        // "CSS",
         "JavaScript",
+        "TypeScript",
         "React",
         "Next.js",
+        "CSS",
         "Github",
         "Python",
         "Django",
@@ -55,9 +57,9 @@ function About() {
                         <img src="/images/Caleb-K Picture.jpg" alt="Caleb K"/>
                     </div>
                     <div className='about-me-description'>
-                        <p>Hello, I’m Caleb Karimi based in Nairobi, Kenya. I am a <span>Web/Software Developer</span> with an <span>Architect’s Mindset</span>. My journey from architecture to web development is more than a career shift - it is a continuation of my passion for creating impactful, well-structured designs. I bring a unique perspective to software development, combining my architectural training with a commitment to building clean, efficient and beautiful digital products.</p>
-                        <p>I hold a degree in Architecture, a discipline that taught me how to approach complex problems, think critically, and translate abstract ideas into tangible outcomes. These skills naturally extend into my work as a developer, where I apply the same principles of design, collaboration, spatial awareness, communication and problem-solving to create software solutions that are both functional and user-centric.</p>
-                        <p>Development is more than just a job for me - it’s a craft. I am committed to continuously learning and evolving with the ever-changing tech landscape, and I thrive on the challenge of pushing the boundaries of what technology can do. Whether it’s building websites that drive business growth or developing applications that simplify processes, I pour my enthusiasm and energy into every project.</p>
+                        <p>Hello, I’m Caleb Karimi based in Nairobi, Kenya. I am a <span>Web/Software Developer</span> with an <span>Architect’s Mindset</span>. My journey from architecture to software development is more than a career shift - it is a continuation of my passion for creating impactful, well-structured designs. I bring a unique perspective to software development, combining my architectural training with a commitment to building clean, efficient and beautiful digital products.</p>
+                        <p>I hold a degree in Architecture, a discipline that taught me how to <span>approach complex problems</span>, <span>think critically</span>, and translate <span>abstract ideas into tangible outcomes</span>. These skills naturally extend into my work as a developer, where I apply the same principles of design, collaboration, spatial awareness, communication and problem-solving to create software solutions that are both functional and <span>user-centric</span>.</p>
+                        <p>Development is more than just a job for me - <span>it’s a craft</span>. I am committed to continuously learning and evolving with the ever-changing tech landscape, and I thrive on the challenge of <span>pushing the boundaries</span> of <span>what technology can do</span>. Whether it’s building software that drive business growth or developing applications that simplify processes, I pour my enthusiasm and energy into every project.</p>
                     </div>
                 </motion.div>
                 <motion.div className="about-me-part-2" variants={itemVariants}>
