@@ -8,7 +8,7 @@ function About() {
         // "HTML",
         // "CSS",
         "JavaScript",
-        "TypeScript",
+        "Node.js (Express.js)",
         "React",
         "Next.js",
         "CSS",
